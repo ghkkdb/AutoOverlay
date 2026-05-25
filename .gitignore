@@ -23,7 +23,6 @@ dist-package-*/
 
 # Local configuration and secrets
 license*.lic
-scripts/license_private.pem
 keys/
 
 # Tooling and OS files
