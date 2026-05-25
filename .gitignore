@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc.*
+*.pyo
+*.pyd
+.Python
+.venv/
+.venv-*/
+venv/
+env/
+
+# Build output
+build/
+dist/
+build-package-*/
+dist-package-*/
+*.spec.bak
+
+# PyInstaller
+*.manifest
+*.toc
+
+# Local configuration and secrets
+license*.lic
+scripts/license_private.pem
+keys/
+
+# Tooling and OS files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
